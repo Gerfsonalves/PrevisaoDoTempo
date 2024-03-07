@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'proza libre', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.ecycle.com.br/wp-content/uploads/2021/10/06174225/hintersee-gf3811c2c2_1920.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    color: rgb(158, 191, 219);
+}
+
+.img-tempo {
+    width: 10%;
+}
+
+.box-large {
+    background: black;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px;
+    width: 450px;
+}
+
+.inputCity {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgb(71, 69, 69);
+    color: #ffffff;
+    width: 60%;
+}
+
+.btn-busca {
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    width: 48px;
+    height: 48px;
+    background-color: rgb(71, 69, 69);
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+    width: 50px;
+}
+
+.city {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.box-medium {
+    margin-top: 30px;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.box-small {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-prev {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umi {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+   .box-large {
+    background: black;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 40px;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box-large {
+     background: black;
+     opacity: 0.7;
+     border-radius: 25px;
+     padding: 35px;
+     width: 300px;
+     position: fixed;
+     top: 100px;
+     left: 50%;
+     transform: translateX(-50%);
+    }
+ }
+ 
